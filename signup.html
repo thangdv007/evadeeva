@@ -2,36 +2,36 @@
 <html lang="en">
 
 <head>
-  <meta charset="utf-8">
-  <meta content="width=device-width, initial-scale=1.0" name="viewport">
-
-  <title>Eva De Eva</title>
-  <meta content="" name="description">
-  <meta content="" name="keywords">
-
-  <!-- Favicons -->
-  <link rel="shortcut icon" href="#" type="image/png" />
-
-  <!-- Vendor CSS Files -->
-	<link href="assets/vendor/bootstrap/css/bootstrap.css" rel="stylesheet">
-	<link href="assets/css/bootstrap.min.css" rel="stylesheet">
-	<link href="assets/vendor/aos/aos.css" rel="stylesheet">
-   	<link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
-   	<link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
-   	<link href="assets/vendor/fontawesome/css/all.css" rel="stylesheet">
-	<link href="assets/css/Bootstrap.css" rel="stylesheet">  
-  	<link href="assets/css/style.css" rel="stylesheet">
-	<link href="assets/css/all.min.css" rel="stylesheet">
-
-  <!--<link href="assets/css/responsive.css" rel="stylesheet">-->
-</head>
+    <meta charset="utf-8">
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    
+    <title>Eva De Eva</title>
+    <meta content="" name="description">
+    <meta content="" name="keywords">
+    
+    <!-- Favicons -->
+    <link rel="shortcut icon" href="#" type="image/png" />
+    
+    <!-- Vendor CSS Files -->
+        <link href="/assets/vendor/bootstrap/css/bootstrap.css" rel="stylesheet">
+        <link href="/assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+        <link href="/assets/vendor/aos/aos.css" rel="stylesheet">
+        <link href="/assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+        <link href="/assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+        <link href="/assets/vendor/fontawesome/css/all.css" rel="stylesheet">
+        <link href="assets/css/Bootstrap.css" rel="stylesheet">
+        <link href="assets/css/style.css" rel="stylesheet">
+        <link href="assets/css/all.min.css" rel="stylesheet">
+    
+    <!--<link href="assets/css/responsive.css" rel="stylesheet">-->
+    </head>
 
 <body>
 
   <!-- ======= Header ======= -->
   <header id="header">
 	<div class="topbar">
-		<div class="padding-lr-0 col-xs-12 col-sm-8 col-md-8 col-lg-6">
+		<div class="padding-lr-0 col-xs-12 col-sm-8 col-md-8 col-lg6">
 			<div class="innerTopbar">
 				<span class="hight-space">-</span>
 				<span><a href="#" title="Mọi thắc mắc hoặc phản hồi dịch vụ, xin liên hệ hotline CSKH:  18001731 ">Mọi thắc mắc hoặc phản hồi dịch vụ, xin liên hệ hotline CSKH:  <b>18001731 </b></a></span>
@@ -39,7 +39,7 @@
 				<span><a href="#" title="Mua hàng Online: 18001732.">Mua hàng Online: <b>18001732.</b></a></span>
 			</div>
 		</div>
-		<div class="padding-lr-0 col-xs-12 col-sm-4 col-md-4 col-lg6">
+		<div class="padding-lr-0 col-xs-12 col-sm-4 col-md-4 col-lg-6">
 			<div class="innerTopbar text-right">
 			</div>
 		</div>
@@ -248,7 +248,65 @@
 		</div>
 	</div>
 </header><!-- End Header -->
-
+<!--Sign Up-->
+<div class="clear-fix"></div>
+<main class="">
+    <div class="layout-account">
+        <div class="padding-rl-40">
+            <div class="breadcrumb-shop">
+                <div class="">
+                    <ol class="breadcrumb breadcrumb-arrows">
+                        <li><a href="#" target="_self">Trang chủ</a></li>
+                        <li><a href="#" target="_self">Tài khoản</a></li>
+                        <li class="active"><span>Đăng ký</span></li>
+                    </ol>
+                </div>		
+            </div>
+        </div>
+        <div class="col-md-6 col-xs-12 left-page">
+            <div class="left clearfix">
+                <h1>Tạo Tài Khoản</h1>
+            </div>
+        </div>
+        <div class="col-md-6 col-xs-12 right-page">
+            <div class="userbox">
+                <form accept-charset='UTF-8' action='' id='cre_user' method='post'>
+                    <div id="last_name" class="clearfix range_form">
+                        <label for="last_name" class="label icon-field"><i class="icon-login icon-user "></i></label>
+                        <input required type="text" value="" name="userlastname" placeholder="Họ" id="last_name" class="text r-box" size="30" />
+                    </div>
+                    <div id="first_name" class="clearfix range_form">
+                        <label for="first_name" class="label icon-field"><i class="icon-login icon-user "></i></label>
+                        <input required type="text" value="" name="userfirstname" placeholder="Tên" id="first_name" class="text r-box" size="30" />
+                    </div>
+                    <div id="phone" class="clearfix range_form">
+                        <label for="phone" class="label icon-field"><i class="icon-login icon-phone "></i></label>
+                        <input required type="text" value="" name="userphone" placeholder="Số điện thoại" id="phone" class="text r-box" size="30" />
+                    </div>
+                    <div id="email" class="clearfix range_form">
+                        <label for="email" class="label icon-field"><i class="icon-login icon-envelope "></i></label>
+                        <input required pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$" type="email" value="" placeholder="Email" name="user_email" id="email" class="input-email-register text r-box" size="30" />
+                    </div>
+                    <div id="password" class="clearfix range_form">
+                        <label for="password" class="label icon-field"><i class="icon-login icon-shield "></i></label>
+                        <input required type="password" value="" placeholder="Mật khẩu" name="userpassword" id="password" class="password text r-box" size="30" />
+                    </div>
+                    <div class="clearfix login-user">
+                        <div class="btn-end button dark">
+                            <input class="btn" type="submit" value="Đăng ký" />			
+                        </div>						
+                    </div>
+                    <div style="padding-top: 15px;" id="wrap-social-login-plus"></div>
+                    <div class="clearfix re-pass">
+                        <a class="back-home" href="#"><i class="fas fa-long-arrow-alt-left"></i> Quay lại trang chủ</a>
+                    </div>
+                
+                </form>		
+            </div>
+		</div>
+	</div>
+</main>
+<!--footer-->
 
 <!--footer-->
 
