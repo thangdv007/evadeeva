@@ -450,7 +450,6 @@ a{
 	position: relative;
 }
 .left-page .left:after {
-	content: "";
 	background:#000;
 	display: block;
 	width: 60px;
