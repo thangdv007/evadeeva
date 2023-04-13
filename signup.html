@@ -263,7 +263,7 @@
 							<h5 class="offcanvas-title" id="offcanvasExampleLabel">Menu</h5>
 							<button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
 						</div>
-						<div class="offcanvas-body">
+						<div class="offcanvas-body all-nav">
 							<ul class="nav flex-column">
 								<li class="nav-item">
 								  <a class="" href="#">Hàng mới về</a>
@@ -272,16 +272,32 @@
 								  <a class="" href="#">Hàng bán chạy</a>
 								</li>
 								<li>
-								  	<a class="nav-item" data-bs-toggle="offcanvas" data-bs-target="#subnav1" href="#">Sản phẩm</a>
-										<div class="offcanvas offcanvas-start" id="subnav1" >	
-											<div class="offcanvas-body">
-											<ul class="nav flex-column">
-												<li class="nav-item">
-													<a>Đầm</a> 
-												</li>
-											</ul>
-											</div>
-										</div>	
+                                    <h2 data-bs-toggle="collapse" role="button" data-bs-target="#nav2" aria-expanded="false" aria-controls="nav2">
+                                        Sản phẩm
+                                    </h2>
+                                    <ul class="collapse flex-column" id="nav2">
+                                        <h3 data-bs-toggle="collapse" role="button" data-bs-target="#sub-nav1" aria-expanded="false" aria-controls="sub-nav1">
+											Đầm
+										</h3>
+										<ul class="collapse flex-column" id="sub-nav1">
+											<li><a class="asubmenu" href="#">Đầm 2 dây</a></li>
+											<li ><a class="asubmenu" href="#">Đầm 2 dây</a></li>
+											<li ><a class="asubmenu" href="#">Đầm 2 dây</a></li>
+											<li ><a class="asubmenu" href="#">Đầm 2 dây</a></li>
+											<li ><a class="asubmenu" href="#">Đầm 2 dây</a></li>
+											<li ><a class="asubmenu" href="#">Đầm 2 dây</a></li>
+										</ul>
+										<h3 data-bs-toggle="collapse" role="button" data-bs-target="#sub-nav2" aria-expanded="false" aria-controls="sub-nav2">
+											Áo
+										</h3>
+										<li class="nav-item"><a href="#">Áo sơ mi</a></li>
+										<h3 data-bs-toggle="collapse" role="button" data-bs-target="#nav2" aria-expanded="false" aria-controls="nav2">
+											Sản phẩm
+										</h3>
+										<h3 data-bs-toggle="collapse" role="button" data-bs-target="#nav2" aria-expanded="false" aria-controls="nav2">
+											Sản phẩm
+										</h3	>
+                                    </ul>	
 								</li>
 								<li class="nav-item">
 								  <a class="">Unique collection</a>
