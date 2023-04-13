@@ -146,6 +146,14 @@ a{
 	width: 25px;
 	height: 25px;
 }
+.searchBtn-mobile {
+	right: 5px;
+	top: 8px;
+	border: none;
+	background-color: transparent;
+	width: 25px;
+	height: 25px;
+}
 .rightHeader {
 	margin: 8px 0 0 0;
 	float: right;
@@ -433,6 +441,10 @@ a{
 	margin: 7px 0 0 10px;
 }
 /* đăng nhập*/
+.active{
+	color:#000;
+	font-weight: 700;
+}
 .left h1 {
 	font-size: 22px;
 	font-weight: 700;
@@ -444,7 +456,7 @@ a{
 .left-page{
 	display:flex;
 	align-items:center;
-	justify-content:center
+	justify-content:center;
 }
 .left-page .left{
 	position: relative;
@@ -471,11 +483,12 @@ a{
 .left-page .left p span{
 	font-weight: 600;
 }
-.left-page .left h1 {
-	font-size: 54px;
-	font-weight: 700;
-	margin: 0px 0;
-	line-height: initial;
+.left-page {
+	position: sticky;
+	top: 0;
+	border-right: 1px solid #ededed;
+	height: 100vh;
+	padding: 0;
 }
 .range_form {
 	margin-bottom:30px;
@@ -529,14 +542,13 @@ a{
 	background: #fff;
 	border-color: #fff;
 }
-.left-page {
-	position: sticky;
-	top: 0;
-	border-right: 1px solid #ededed;
-	height: 60vh;
-}
+
 .right-page {
 	padding: 50px;
+}
+.breadcrumb {
+	border-radius: 0;
+	margin-bottom: 5px;
 }
 /*đăng kí*/
 .back-home{
@@ -546,4 +558,54 @@ a{
 }
 .back-home i{
 	margin-right:20px
+}
+
+/*mobile header*/
+.nav-mobile{
+	display: none;
+	width: 100%;
+}
+.btn-menu{
+	width: 10%;
+	height: 30px;
+}
+.offcanvas{
+	width: 70% !important;
+}
+.accountMobile i {
+	height: 100000px !important;
+}
+.all-nav ul li a {
+	margin: 0 0 8px 0;
+	display: inline-block;
+	font-size: 18px;
+}
+.all-nav h2:before {
+	content: "\f107";
+	font-family: "FontAwesome";
+	font-size: 16px;
+	position: absolute;
+	top: 0px;
+	right: 5px;
+	text-align: center;
+	line-height: 10px;
+}
+.all-nav h2 {
+	position: relative;
+}
+.all-nav h3:before {
+	content: "\f107";
+	font-family: "FontAwesome";
+	font-size: 16px;
+	position: absolute;
+	top: 0px;
+	right: 5px;
+	text-align: center;
+	line-height: 10px;
+}
+.all-nav h3 {
+	position: relative;
+}
+.all-nav ul li .asubmenu{
+	font-size: 14px;
 }
